@@ -21,16 +21,6 @@ function LibraryManagementPage() {
 
     // Load the list of books (dummy data for demonstration)
     useEffect(() => {
-        // Replace this with your actual API call to fetch the list of books
-        // const fetchBooks = async () => {
-        //     // Simulating an API call delay
-        //     await new Promise((resolve) => setTimeout(resolve, 1000));
-
-
-        //     setBooks(data);
-        // };
-
-        // fetchBooks();
         setBooks(data);
     }, []);
 
